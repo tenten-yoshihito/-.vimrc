@@ -16,6 +16,12 @@ set hidden
 " 入力中のコマンドをステータスに表示する
 set showcmd
 
+" 自動インデントを有効化
+set autoindent
+set smartindent
+" ファイルタイプ別のインデントを有効にする
+filetype plugin indent on
+
 
 " 見た目系
 " 行番号を表示
@@ -23,11 +29,9 @@ set number
 " 現在の行を強調表示
 set cursorline
 " 現在の行を強調表示（縦）
-set cursorcolumn
+" set cursorcolumn
 " 行末の1文字先までカーソルを移動できるように
 set virtualedit=onemore
-" インデントはスマートインデント
-set smartindent
 " ビープ音を可視化
 set visualbell
 " 括弧入力時の対応する括弧を表示
