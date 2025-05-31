@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-commentary'
 Plug 'jiangmiao/auto-pairs'
+Plug 'github/copilot.vim'
 call plug#end()
 " setting
 "文字コードをUFT-8に設定
